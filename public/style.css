@@ -1,0 +1,72 @@
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+    height:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("photo/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center ;
+    display: inline-flex;
+
+}
+.container{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+.container h1{
+    color: rgb(204, 198, 198);
+    font-weight:900px;
+    font-size:40px;
+}
+.todo-container{
+    background-color: rgb(253, 226, 226)  ;
+    display: flex;
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 5px;
+    justify-content: space-between;
+
+}
+.todo-value{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    padding: 2px;
+    text-align: left;
+    
+    
+    
+}
+.sbtn{
+    display: flex;
+    margin: 0,-0.5rem;
+    
+}
+.todo-edit {
+    display: flex;
+    margin: 0,-0.5rem;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+.todo-edit:hover{
+    background-color: rgba(160, 164, 167, 0.979);
+}
+.todo-delete {
+    display: flex;
+    margin: 0,-0.5rem;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.todo-delete:hover{
+    background-color: rgba(160, 164, 167, 0.979);
+}
+
+
